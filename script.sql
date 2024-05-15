@@ -73,7 +73,7 @@ GROUP BY c.nombre
 ORDER BY Numero_Pedidos DESC;
 
 UPDATE productos
-SET precio = precio * 1.10
+SET precio = precio * 0.10
 WHERE categoria = 'Camisetas';
 
 DELETE FROM pedidos
